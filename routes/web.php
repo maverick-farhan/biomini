@@ -31,7 +31,7 @@ Route::get('/settings/{userID}',[UserController::class,'settingView'])
 ->middleware(ValidUser::class);
 
 Route::put('/updateSettings/{user}',[UserController::class,'updateUser'])
-->name('update')
+->name('updateSettings')
 ->middleware(ValidUser::class);
 
 Route::get('/welcome',[UserController::class,'index'])

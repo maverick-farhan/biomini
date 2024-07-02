@@ -111,7 +111,7 @@
          <div class="row subscribe-content">
             <div class="col-twelve">
 
-               <h2 class="h01 animate-this">Stay upto date, join our newsletter</h2>
+               <h2 class="h01 animate-this">This feature is not currently working, because I was mentally invested my every brain cells in overcoming the undefined variable errors.</h2>
                <form id="mc-form" class="group" novalidate="true" autocomplete="off">
 
                	<div class="row">

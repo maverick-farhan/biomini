@@ -122,7 +122,7 @@
                         <li><a target="_blank" href="mailto:{{ $detail->email }}">{{ $detail->email }} <i class="fas fa-external-link-alt"></i></a></li>
                         <li><a target="_blank" href="{{ $detail->portfolio }}">{{ $detail->portfolio }} <i class="fas fa-external-link-alt"></i></a></li>
                         <li><a href="{{ asset('/resume'.'/'.$detail->resume) }}" download>Resume <i class="fas fa-download"></i></a></li>
-                        <li><a href="">{{ $detail->phone }}</a></li>
+                        <li><a href="">+91-{{ $detail->phone }}</a></li>
                     </ul>
                 </div>
             </div>

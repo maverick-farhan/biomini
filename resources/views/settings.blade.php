@@ -172,9 +172,11 @@ input[type="button"].button-primary {
        <div class="row">
         <div class="col-12 form-div">
             <h1 class="animate-intro" font-size:5.2rem;">Settings</h1>
-            <form method="POST" action="{{ route('update',Auth::user()->id) }}">
+            <form method="POST" action="{{ route('updateSettings',["user" => $user->id]) }}">
                 @csrf
-                @method('put')
+                @method('PUT')
+                <input type="hidden" name="_method" value="PUT">
+                <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Username</label>
                     <input type="text" required class="form-control" name="name" value="{{ $user->name }}" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John Doe">
@@ -196,7 +198,7 @@ input[type="button"].button-primary {
                   </span>
                 </div>
                 
-                <button type="submit" class="btn btn-primary">Update</button>
+                <input type="submit" class="btn btn-primary" value="Update"/>
               </form>
     
         </div>
