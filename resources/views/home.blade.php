@@ -97,7 +97,7 @@
    					<p class="animate-this" data-animate="fadeInLeft">Biomini is a side project I made to develope my coding skills. You are most welcome in this project to start using it right away or contribute through code. </p>
 
 					<a href="{{ route('welcome') }}" class="button animate-this" data-animate="fadeInLeft">Let's Build Bio</a>
-   					<a href="{{ url('https://github.com/maverick-farhan') }}" target="_blank" class="animate-this" data-animate="fadeInLeft"><i class="fa-brands fa-github"></i></a>
+   					<a href="{{ url('https://github.com/maverick-farhan/biomini') }}" target="_blank" class="animate-this" data-animate="fadeInLeft"><i class="fa-brands fa-github"></i></a>
    			 					
    				</div>   				
    				
