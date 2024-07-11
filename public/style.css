@@ -42,7 +42,7 @@ main{
     border:1px solid #111;
     width:100%;
     height:fit-content;
-    background-color: rgba(255, 230, 182,0.9);
+    background-color: rgba(255, 254, 252, 0.9);
 }
 section.profile_settings{
     display:flex;
@@ -161,6 +161,7 @@ li span.likes{
 .personal_info{
     width:100%;
     display: flex;
+    padding:10px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -169,6 +170,7 @@ h5.name{
     font-size:1.5rem;
 }
 h5.profession{
+    text-align: center;
     color:#444;
 }
 
