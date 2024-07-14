@@ -24,6 +24,26 @@
 	header.main-header{
 	height:20vh;
 }
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(246, 246, 246); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1AAB8D; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1AAB8D; 
+}
 </style>
 </head>
 
@@ -94,8 +114,7 @@
    					<h5 class="animate-this" data-animate="fadeInLeft">&#x2665;Biomini&#x2665;.</h5>
    					<h2 class="animate-this info" data-animate="fadeInLeft">Share your Bio instantly</h2>
 
-   					<p class="animate-this" data-animate="fadeInLeft">Biomini is a side project I made to develope my coding skills. You are most welcome in this project to start using it right away or contribute through code. </p>
-
+   					<p class="animate-this" data-animate="fadeInLeft">Biomini is a side project I made to develope and practice my development skills. You are most welcome in this project to start using it right away or contribute through code. </p>
 					<a href="{{ route('welcome') }}" class="button animate-this" data-animate="fadeInLeft">Let's Build Bio</a>
    					<a href="{{ url('https://github.com/maverick-farhan/biomini') }}" target="_blank" class="animate-this" data-animate="fadeInLeft"><i class="fa-brands fa-github"></i></a>
    			 					

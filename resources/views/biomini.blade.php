@@ -15,7 +15,7 @@
 <body>
     <main>
         <header>
-            <div class="logo"><h1>Bio Mini</h1></div>
+            <div class="logo"><a href="{{ route('welcome') }}"><img class="builder-img" src="{{ asset('/logo.png') }}" alt=""></a></div>
         </header>
         <section class="profile_settings">
             <div class="image">

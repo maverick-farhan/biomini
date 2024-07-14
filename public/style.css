@@ -315,7 +315,6 @@ input[type=text],input[type=number],input[type=email]{
         border:1px solid #111;
         width:100%;
         height:fit-content;
-        background-color: rgba(255, 230, 182,0.9);
     }
     section.profile_settings{
         display:flex;
@@ -865,7 +864,6 @@ input[type=text],input[type=number],input[type=email]{
         border:1px solid #111;
         width:100%;
         height:fit-content;
-        background-color: rgba(255, 230, 182,0.9);
     }
     section.profile_settings{
         display:flex;
@@ -1141,7 +1139,6 @@ input[type=text],input[type=number],input[type=email]{
         border:1px solid #111;
         width:100%;
         height:fit-content;
-        background-color: rgba(255, 230, 182,0.9);
     }
     section.profile_settings{
         display:flex;
@@ -1414,7 +1411,6 @@ input[type=text],input[type=number],input[type=email]{
         border:1px solid #111;
         width:100%;
         height:fit-content;
-        background-color: rgba(255, 230, 182,0.9);
     }
     section.profile_settings{
         display:flex;
@@ -1656,4 +1652,8 @@ input[type=text],input[type=number],input[type=email]{
         font-size:1rem;
         margin-bottom:2rem;
       }
+}
+.builder-img{
+    width:100px;
+    height:auto;
 }
