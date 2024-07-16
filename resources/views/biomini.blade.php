@@ -7,8 +7,8 @@
     <title>Biomini | Create & Share mini bio links to grow your networks</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="{{ asset('/style.css') }}" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="{{ asset('style.css') }}" type="text/css">
 
 
 </head>
@@ -122,7 +122,7 @@
                         <li><a target="_blank" href="mailto:{{ $detail->email }}">{{ $detail->email }} <i class="fas fa-external-link-alt"></i></a></li>
                         <li><a target="_blank" href="{{ $detail->portfolio }}">{{ $detail->portfolio }} <i class="fas fa-external-link-alt"></i></a></li>
                         <li><a href="{{ asset('/resume'.'/'.$detail->resume) }}" download>Resume <i class="fas fa-download"></i></a></li>
-                        <li><a href="">+91-{{ $detail->phone }}</a></li>
+                        <li><a href="#">+91-{{ $detail->phone }}</a></li>
                     </ul>
                 </div>
             </div>

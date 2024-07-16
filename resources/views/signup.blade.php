@@ -20,12 +20,12 @@
             justify-content: center;
             align-items: flex-start;
             flex-direction: column;
-            padding:16rem 10rem
+            padding:1rem;
         }
         .form-div{
             position:relative;
-            top:10rem;
-            margin-top:4rem;
+            top:18rem;
+            margin-top:17rem;
 
         }
         input[type="email"],

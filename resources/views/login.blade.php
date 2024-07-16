@@ -21,12 +21,12 @@
             justify-content: center;
             align-items: flex-start;
             flex-direction: column;
-            padding:16rem 10rem
+            padding:1rem 1rem;
         }
         .form-div{
             position:relative;
-            top:3rem;
-            margin-top:2rem;
+            top:8rem;
+            margin-top:4rem;
 
         }
 

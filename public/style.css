@@ -43,6 +43,8 @@ main{
     width:100%;
     height:fit-content;
     background-color: rgba(255, 254, 252, 0.9);
+    overflow-x:hidden ;
+
 }
 section.profile_settings{
     display:flex;
@@ -99,16 +101,7 @@ svg{
     width:1rem;
     height:auto;
 }
-li.heart{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-li span.likes{
-    position:absolute;
-    right:-1rem;
-    font-size:14px;
-}
+
 #colors{
     display:none;
     position: absolute;
@@ -167,6 +160,7 @@ li span.likes{
     flex-direction: column;
 }
 h5.name{
+    text-align: center;
     font-size:1.5rem;
 }
 h5.profession{
@@ -218,23 +212,25 @@ button:hover{
     list-style:none;
 }
 .links ul li a{
-font-size:1rem;
+font-size:.61rem;
 text-decoration: none;
-color:rgb(0, 3, 208);
-}
+color:#3135ff;}
 .links ul li a:hover{
 text-decoration: underline;
-
 }
 
 .socials ul{
+    text-align: center;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
     display:flex;
     justify-content: space-between;
     align-items: center;
-    width:10rem;
+    width:100%;
 }
 .socials li a i{
-    font-size: 1.42rem;
+    font-size: 1.52rem;
     color:#111;
 }
 ul li a{
@@ -242,8 +238,7 @@ ul li a{
 }
 ul{list-style: none;}
 i.fa-external-link-alt,i.fa-download{
-color:rgb(0, 3, 208);
-font-size:.891rem;
+color:#5b5eff;font-size:.81rem;
 
 }
 input[type=text],input[type=number],input[type=email]{
@@ -370,7 +365,7 @@ input[type=text],input[type=number],input[type=email]{
     }
     
     svg{
-        width:1rem;
+        width:.91rem;
         height:auto;
     }
     li.heart{
@@ -492,7 +487,7 @@ input[type=text],input[type=number],input[type=email]{
     .links ul li a{
     font-size:1rem;
     text-decoration: none;
-    color:rgb(0, 3, 208);
+    color:#5b5eff;
     }
     .links ul li a:hover{
     text-decoration: underline;
@@ -514,7 +509,7 @@ input[type=text],input[type=number],input[type=email]{
     }
     ul{list-style: none;}
     i.fa-external-link-alt,i.fa-download{
-    color:rgb(0, 3, 208);
+    color:#5b5eff;
     font-size:.891rem;
     
     }
@@ -574,10 +569,9 @@ input[type=text],input[type=number],input[type=email]{
         justify-content: center;
         overflow-x:hidden;
     }
-    header .logo h1{
-        font-family: "Lora", serif !important;
-        font-weight:900;
-        font-size:1.3rem;
+    header .logo a img{
+        width:80px;
+        height:auto;
     }
     main{
         border-radius:1.2rem;
@@ -590,7 +584,6 @@ input[type=text],input[type=number],input[type=email]{
         border:1px solid #111;
         width:100%;
         height:fit-content;
-        background-color: rgba(255, 230, 182,0.9);
     }
     section.profile_settings{
         display:flex;
@@ -1041,7 +1034,8 @@ input[type=text],input[type=number],input[type=email]{
     .links ul li a{
     font-size:1rem;
     text-decoration: none;
-    color:rgb(0, 3, 208);
+
+    color:#5b5eff;
     }
     .links ul li a:hover{
     text-decoration: underline;
@@ -1063,7 +1057,8 @@ input[type=text],input[type=number],input[type=email]{
     }
     ul{list-style: none;}
     i.fa-external-link-alt,i.fa-download{
-    color:rgb(0, 3, 208);
+
+    color:#5b5eff;
     font-size:.891rem;
     
     }
@@ -1316,7 +1311,7 @@ input[type=text],input[type=number],input[type=email]{
     .links ul li a{
     font-size:1rem;
     text-decoration: none;
-    color:rgb(0, 3, 208);
+    color:#5b5eff;
     }
     .links ul li a:hover{
     text-decoration: underline;
@@ -1338,7 +1333,7 @@ input[type=text],input[type=number],input[type=email]{
     }
     ul{list-style: none;}
     i.fa-external-link-alt,i.fa-download{
-    color:rgb(0, 3, 208);
+color:#5b5eff;
     font-size:.891rem;
     
     }
@@ -1393,13 +1388,8 @@ input[type=text],input[type=number],input[type=email]{
         font-family: "Poppins", sans-serif;
         display:flex;
         justify-content: center;
-        overflow-x:hidden;
     }
-    header .logo h1{
-        font-family: "Lora", serif !important;
-        font-weight:900;
-        font-size:1.3rem;
-    }
+
     main{
         border-radius:1.2rem;
         margin:1rem 0;
@@ -1588,7 +1578,7 @@ input[type=text],input[type=number],input[type=email]{
     .links ul li a{
     font-size:1rem;
     text-decoration: none;
-    color:rgb(0, 3, 208);
+color:#5b5eff;
     }
     .links ul li a:hover{
     text-decoration: underline;
@@ -1610,7 +1600,8 @@ input[type=text],input[type=number],input[type=email]{
     }
     ul{list-style: none;}
     i.fa-external-link-alt,i.fa-download{
-    color:rgb(0, 3, 208);
+color:#5b5eff;
+
     font-size:.891rem;
     
     }

@@ -89,9 +89,6 @@
 					<div class="buttons">
 						<a class="button stroke animate-intro" href="{{ route('welcome') }}" title="">Create Bio</a>
 					</div>					
-
-					<img src="{{ asset('/biomini-end-product.png') }}" alt="" class="animate-intro">   			
-
 			  	</div>		   			
 		   </div>
 		</section>

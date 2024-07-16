@@ -14,18 +14,22 @@
 
     <style>
         .biolinks{
-        margin-top:6rem;
+        margin-top:12rem;
         font-size:16px;
-        padding:3rem 10rem;
+        padding:3rem 1rem;
         align-items: center;
         justify-content:center;
         display:flex;
       }
+      button i.fa-trash-can{
+        position: relative;
+        bottom: 11px;
+      }
       @media only screen and (max-width:768px) {
         .biolinks{
-        margin-top:7rem;
+        margin-top:10rem;
         font-size:14px;
-        padding:3rem 10rem;
+        padding:3rem 1rem;
         align-items: center;
         justify-content:center;
         display:flex;
@@ -35,25 +39,25 @@
 @media only screen and (max-width:600px) {
   .biolinks{
         width:100%;
-        margin-top:6rem;
-        padding:3rem 10rem;
+        margin-top:10rem;
+        padding:3rem 1rem;
         align-items: center;
-        font-size:12px;
+        font-size:10px;
         justify-content:center;
         display:flex;
       }
 }
 @media only screen and (max-width:400px) {
   .biolinks{
-      font-size:9px;
-
+      font-size:7px;
         width:100%;
-        margin-top:6rem;
-        padding:3rem 10rem;
+        margin-top:12rem;
+        padding:3rem 1rem;
         align-items: center;
         justify-content:center;
         display:flex;
       }
+
 }
 
     </style>

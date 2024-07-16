@@ -15,11 +15,12 @@
     <style>
         .main{
             width:100%;
+            position: relative;
+            top:10rem;
             display:flex;
             justify-content: center;
             align-items: flex-start;
             flex-direction: column;
-            padding:10rem 20rem 0 20rem;
         }
         span.welcome{
             font-weight:100;
@@ -27,17 +28,41 @@
 
         }
         span.name{
-            font-size:6rem;
+            font-size:5rem;
             font-weight:900;
         }
         h3.greeting_message{
-            font-size:4rem;
+            font-size:3rem;
             font-weight:normal;
         }
         span.todo{
             color:#14ad8a;
             text-decoration: underline;
         }
+        @media only screen and (min-width:768px) {
+        .main{
+            padding:12rem 10rem 0 10rem;
+        }
+        span.welcome{
+            font-weight:100;
+            color:#14ad8a;
+
+        }
+        span.name{
+            font-size:4rem;
+            font-weight:900;
+        }
+        h3.greeting_message{
+            font-size:3rem;
+            font-weight:normal;
+        }
+        span.todo{
+            color:#14ad8a;
+            text-decoration: underline;
+        }
+        
+}
+
         @media only screen and (max-width:768px) {
         .main{
             padding:12rem 10rem 0 10rem;
@@ -63,7 +88,7 @@
 }
 @media only screen and (max-width:600px) {
     .main{
-            padding:13rem 9rem 0 9rem;
+            padding:10rem 4rem 0 4rem;
             span.welcome{
             font-weight:100;
             color:#14ad8a;
@@ -92,11 +117,11 @@
 
         }
         span.name{
-            font-size:4rem;
+            font-size:3rem;
             font-weight:900;
         }
         h3.greeting_message{
-            font-size:3rem;
+            font-size:2rem;
             font-weight:normal;
         }
         span.todo{

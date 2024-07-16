@@ -20,11 +20,11 @@
             justify-content: center;
             align-items: flex-start;
             flex-direction: column;
-            padding:16rem 10rem
+            padding:1rem;
         }
         .form-div{
             height:80vh;
-            margin-top:3rem;
+            margin-top:13rem;
             position:relative;
             left:-50%;
             transform: translateX(50%)
