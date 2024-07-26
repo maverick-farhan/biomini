@@ -83,7 +83,7 @@
 
 			  		
 					<h1 class="animate-intro">
-						Create . Share . Boost your presence digitally. 
+						Create-Share-Boost web presence. 
 					</h1>	
 					
 					<div class="buttons">

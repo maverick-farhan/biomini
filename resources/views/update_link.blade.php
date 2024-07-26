@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Build Bio Mini | Creating....</title>
+    <title>Build Bio Mini | Updating....</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,12 +20,13 @@
             justify-content: center;
             align-items: flex-start;
             flex-direction: column;
-            padding:16rem 10rem
+            padding:16rem 1rem
         }
         .form-div{
             height:80vh;
             margin-top:3rem;
             position:relative;
+            width:100%;
             left:-50%;
             transform: translateX(50%)
 
@@ -41,7 +42,7 @@ input[type="password"],
 select {
 	display: block;
 	height: 4rem;
-	padding: 1.5rem 2.5rem;
+	padding: 1.5rem 2rem;
 	border: 0;
 	outline: none;
 	vertical-align: middle;
@@ -61,7 +62,7 @@ select {
 }
 textarea {
     font-size:1.5rem !important;
-	min-height: 15rem;
+	min-height: 25rem;
 }
 textarea:focus {
     box-shadow: none;
@@ -179,7 +180,7 @@ input[type="button"].button-primary {
      <div class="container mt-5">
        <div class="row">
         <div class="col-12 form-div">
-            <h1 class="animate-intro" font-size:5.2rem;">Create Bio Link</h1>
+            <h1 class="animate-intro" font-size:5.2rem;">Update Bio Profile</h1>
             <div class="alert alert-primary" role="alert">
                 @if(session('status'))
                     {{ session('status') }}
@@ -249,7 +250,7 @@ input[type="button"].button-primary {
                 
                 <div data-mdb-input-init class="form-outline">
                     <label class="form-label" for="textAreaExample">Short Bio</label>
-                    <textarea name="short_bio" class="form-control" id="textAreaExample1" rows="2" placeholder="Describe yourself with quick words and make sure your selection of words will be enough to express you and your expertise in short reading." ></textarea>
+                    <textarea name="short_bio" class="form-control" id="textAreaExample1" rows="4" placeholder="Describe yourself with quick words and make sure your selection of words will be enough to express you and your expertise in short reading." ></textarea>
                     <br />
                     <span style="color:red;">
                         @error('short_bio')
@@ -260,7 +261,7 @@ input[type="button"].button-primary {
 
                 <div data-mdb-input-init class="form-outline">
                     <label class="form-label" for="textAreaExample">Interests</label>
-                    <textarea name="interest" class="form-control" id="textAreaExample1" rows="2" placeholder=" Reading, Touring, Coding (Seperate your key interests with commas)"></textarea>
+                    <textarea name="interest" class="form-control" id="textAreaExample1" rows="4" placeholder=" Reading, Touring, Coding (Seperate your key interests with commas)"></textarea>
                     <br />
                     <span style="color:red;">
                         @error('interest')

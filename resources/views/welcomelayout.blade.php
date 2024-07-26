@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">    
 
     <style>
+        body{
+        background: linear-gradient(-45deg, #ffcaba, #d6bcff, #ffdab7, #ffc2c2);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+        }
         .main{
             width:100%;
             position: relative;
@@ -22,8 +28,9 @@
             align-items: flex-start;
             flex-direction: column;
         }
+
         span.welcome{
-            font-weight:100;
+            font-weight:400;
             color:#14ad8a;
 
         }
@@ -44,7 +51,7 @@
             padding:12rem 10rem 0 10rem;
         }
         span.welcome{
-            font-weight:100;
+            font-weight:400;
             color:#14ad8a;
 
         }
@@ -68,7 +75,7 @@
             padding:12rem 10rem 0 10rem;
         }
         span.welcome{
-            font-weight:100;
+            font-weight:400;
             color:#14ad8a;
 
         }
@@ -89,9 +96,10 @@
 @media only screen and (max-width:600px) {
     .main{
             padding:10rem 4rem 0 4rem;
+    }
             span.welcome{
-            font-weight:100;
-            color:#14ad8a;
+        color:#14ad8a;
+            font-weight:400;
 
         }
         span.name{
@@ -112,7 +120,7 @@
             padding:4rem 2rem 0 2rem;
         }
         span.welcome{
-            font-weight:100;
+            font-weight:400;
             color:#14ad8a;
 
         }
@@ -129,6 +137,18 @@
             text-decoration: underline;
         }
 }
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
     </style>
 </head>
 <body>

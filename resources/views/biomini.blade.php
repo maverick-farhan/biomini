@@ -118,11 +118,11 @@
                 <h2>Contact</h2>
                 <div class="links">
                     <ul>
-                        <li><a target="_blank" href="{{ $detail->website }}">{{ $detail->website }} <i class="fas fa-external-link-alt"></i></a></li>
-                        <li><a target="_blank" href="mailto:{{ $detail->email }}">{{ $detail->email }} <i class="fas fa-external-link-alt"></i></a></li>
-                        <li><a target="_blank" href="{{ $detail->portfolio }}">{{ $detail->portfolio }} <i class="fas fa-external-link-alt"></i></a></li>
-                        <li><a href="{{ asset('/resume'.'/'.$detail->resume) }}" download>Resume <i class="fas fa-download"></i></a></li>
-                        <li><a href="#">+91-{{ $detail->phone }}</a></li>
+                        <li><i class="fas fa-globe-asia"></i> <a target="_blank" href="{{ $detail->website }}">{{ $detail->website }} <i class="fas fa-external-link-alt"></i></a></li>
+                        <li><i class="far fa-envelope"></i> <a target="_blank" href="mailto:{{ $detail->email }}">{{ $detail->email }} <i class="fas fa-external-link-alt"></i></a></li>
+                        <li><i class="fas fa-lightbulb"></i> <a target="_blank" href="{{ $detail->portfolio }}">{{ $detail->portfolio }} <i class="fas fa-external-link-alt"></i></a></li>
+                        <li><i class="fas fa-file-download"></i> <a href="{{ asset('/resume'.'/'.$detail->resume) }}" download>Resume <i class="fas fa-download"></i></a></li>
+                        <li><i class="fas fa-phone-volume"></i> <a href="#">+91-{{ $detail->phone }}</a></li>
                     </ul>
                 </div>
             </div>

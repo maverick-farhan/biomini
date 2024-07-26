@@ -248,7 +248,7 @@ input[type="button"].button-primary {
                 
                 <div data-mdb-input-init class="form-outline">
                     <label class="form-label" for="textAreaExample">Short Bio</label>
-                    <textarea name="short_bio" class="form-control" id="textAreaExample1" rows="2" placeholder="Describe yourself with quick words and make sure your selection of words will be enough to express you and your expertise in short reading." value="{{ old('short_bio') }}" ></textarea>
+                    <textarea name="short_bio" class="form-control" id="textAreaExample1" rows="4" placeholder="Describe yourself with quick words and make sure your selection of words will be enough to express you and your expertise in short reading." value="{{ old('short_bio') }}" ></textarea>
                     <br />
                     <span style="color:red;">
                         @error('short_bio')
@@ -259,7 +259,7 @@ input[type="button"].button-primary {
 
                 <div data-mdb-input-init class="form-outline">
                     <label class="form-label" for="textAreaExample">Interests</label>
-                    <textarea name="interest" class="form-control" id="textAreaExample1" rows="2" value="{{ old('interest') }}" placeholder=" Reading, Touring, Coding (Seperate your key interests with commas)"></textarea>
+                    <textarea name="interest" class="form-control" id="textAreaExample1" rows="4" value="{{ old('interest') }}" placeholder=" Reading, Touring, Coding (Seperate your key interests with commas)"></textarea>
                     <br />
                     <span style="color:red;">
                         @error('interest')
