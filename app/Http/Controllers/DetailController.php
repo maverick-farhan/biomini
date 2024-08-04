@@ -122,6 +122,7 @@ class DetailController extends Controller
         $detail->delete();
         return redirect()->route('welcome')->with('status','Your Biomini link successfully deleted');
     }
+        $detail->delete();
     return redirect()->route('welcome')->with('status','Your Biomini link successfully deleted');
 
 }
